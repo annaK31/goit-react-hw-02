@@ -1,0 +1,24 @@
+.btn_option{
+    border-color: #9298a5;
+    border-width: 2px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #f8f8f8;
+    transform: background-olor;
+}
+.btn_option:focus,
+.btn_option:hover
+{
+    border-color: #9298a5;
+    outline: none;
+    background-color: #e3e7f0;
+}
+.btn_option:focus:active{
+    background-color: #f8f8f8;
+    transition: background-color 0.1s ease;
+    background-color: initial;
+}
+.btn_list{
+    display: flex;
+    gap: 8px;
+}
